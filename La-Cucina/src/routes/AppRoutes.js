@@ -19,7 +19,7 @@ export default function AppRoutes() {
       }}
     >
       <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Início' }} />
-      <Stack.Screen name="Recipes" component={RecipesScreen} options={{ title: 'Lista de Receitas' }} />
+      <Stack.Screen name="Recipes" component={ReceitasScreen} options={{ title: 'Lista de Receitas' }} />
       <Stack.Screen name="RecipeDetail" component={RecipeDetailScreen} options={{ title: 'Detalhes da Receita' }} />
       <Stack.Screen name="Favorites" component={FavoritesScreen} options={{ title: 'Minhas Favoritas' }} />
       
