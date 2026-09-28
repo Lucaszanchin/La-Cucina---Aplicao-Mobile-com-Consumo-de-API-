@@ -1,5 +1,5 @@
 import { View, Text, Image } from "react-native";
-import { styles } from "../styles/detalhesReceitaStyles";
+import { styles } from "../styles/detalheReceitasStyles";
 
 export default function ReceitaHeader({ receita }) {
   return (

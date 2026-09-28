@@ -4,7 +4,7 @@
     "slug": "La-Cucina",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/LaCucina.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
@@ -12,13 +12,13 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/LaCucina.png",
+        "backgroundImage": "./assets/LaCucina.png",
+        "monochromeImage": "./assets/LaCucina.png"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/LaCucina.png"
     }
   }
 }

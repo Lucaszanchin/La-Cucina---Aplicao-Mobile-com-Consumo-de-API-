@@ -1,5 +1,5 @@
 import { Linking, TouchableOpacity, Text } from "react-native";
-import { styles } from "../styles/detalhesReceitaStyles";
+import { styles } from "../styles/detalheReceitasStyles";
 
 export default function VideoButton({ url }) {
   function abrirVideo() {

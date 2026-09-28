@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import {ScrollView, Text, ActivityIndicator } from "react-native";
 
 import ReceitaHeader from "../components/ReceitaHeader";
-import IngredienteItem from "../components/IngredienteItem";
+import IngredienteItem from "../components/IngredientesItem";
 import VideoButton from "../components/VideoButton";
 
 import { buscarReceitaPorId } from "../services/receitasService";

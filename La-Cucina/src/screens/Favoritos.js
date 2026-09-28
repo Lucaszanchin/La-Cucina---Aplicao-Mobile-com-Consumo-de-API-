@@ -1,13 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  FlatList,
-  TouchableOpacity,
-  ActivityIndicator,
-  Alert
-} from 'react-native';
+import {View, Text, StyleSheet, FlatList, TouchableOpacity, ActivityIndicator, Alert} from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 
 import { obteveFavoritos, removerFavorito } from '../services/favorites';
@@ -17,7 +9,6 @@ export default function Favoritos({ navigation }) {
   const [favoritos, setFavoritos] = useState([]);
   const [carregando, setCarregando] = useState(true);
 
-  // Recarrega os favoritos sempre que a tela ganha foco
   useFocusEffect(
     useCallback(() => {
       carregarFavoritos();
@@ -37,7 +28,7 @@ export default function Favoritos({ navigation }) {
   }
 
   function abrirReceita(id) {
-    navigation.navigate('DetalhesReceita', { mealId: id });
+    navigation.navigate('RecipeDetail', { mealId: id });
   }
 
   async function handleRemoverFavorito(idMeal) {
@@ -47,7 +38,6 @@ export default function Favoritos({ navigation }) {
 
   return (
     <View style={styles.container}>
-      {/* Cabeçalho no mesmo padrão da Home */}
       <View style={styles.header}>
         <Text style={styles.title}>Minhas Receitas</Text>
         <Text style={styles.titleHighlight}>Favoritas ❤️</Text>
