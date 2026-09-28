@@ -94,11 +94,14 @@ Essa requisição permite buscar receitas pelo nome.
 La-Cucina/
 │
 ├── assets/
+├── docs/
 │
 ├── src/
 │   ├── components/
 │   ├── screens/
 │   ├── services/
+│   ├── styles/
+│   ├── routes/
 │   └── navigation/
 │
 ├── App.jsx
@@ -118,7 +121,6 @@ main
 └── develop
     │
     ├── feature/home
-    ├── feature/receitas
     ├── feature/detalhes-receita
     ├── feature/busca
     ├── feature/favoritos
@@ -191,7 +193,7 @@ A aplicação será desenvolvida pensando na experiência do usuário em disposi
 
 ## 📌 Status do projeto
 
-🚧 **Em desenvolvimento**
+🚧 **Finalizado**
 
 Novas funcionalidades e melhorias serão adicionadas durante o desenvolvimento do projeto.
 
